@@ -27,7 +27,7 @@ function Admin() {
         try {
             debugger
             // const res = await axios.get("http://localhost:8801/category");
-            const res = await axios.get("https://web-backend-api-575c4fb7fce0.herokuapp.com/category");
+            const res = await axios.get("https://web-backend-live2-api-7d40ed8a59d0.herokuapp.com/");
             // console.log(res);
             setallcategory(res.data);
         } catch (err) {
